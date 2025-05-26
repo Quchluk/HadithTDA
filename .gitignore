@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Parquet/Feather cache files (если не хочешь загружать данные)
+*.parquet
+*.feather
+
+# Environment
+.env
+.venv/
+env/
+venv/
+*.env
+
+# macOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Logs
+/data/
